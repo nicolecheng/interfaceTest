@@ -1,0 +1,4 @@
+public interface InterfaceName{
+ String method1(String param1);  //this is a method signature, just like abstract method signatures
+ int method2(double param2);
+}
