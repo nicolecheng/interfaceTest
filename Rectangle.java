@@ -1,5 +1,5 @@
 
-public class Rectangle extends Shape{
+public class Rectangle extends Shape implements Area{
 
     private double length,width;
 
@@ -15,6 +15,10 @@ public class Rectangle extends Shape{
 
     public double getWidth(){
 	return width;
+    }
+    
+    public double getArea(){
+    	return length * width;
     }
 
     public String toString(){
